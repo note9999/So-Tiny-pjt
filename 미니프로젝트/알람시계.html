@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>온라인 알람시계</title>
+  <link rel="stylesheet" href="알람시계.css">
+</head>
+<body>
+  <h1 id="clock">Loading clock...</h1>
+  <p>
+    알람설정하기 <input type="time" id="alarm-time" />
+  </p>
+
+  <audio id="alarm-sound" src="alarm.mp3"></audio>
+  <div id="warning">
+    <p>일어나세요!!!!!!!!</p>
+    <button onclick="stopAlarm()">Stop Alarm</button>
+  </div>
+
+ <script src="알람시계.js"></script>
+</body>
+</html>
